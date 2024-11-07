@@ -1,0 +1,108 @@
+.CartPage {
+  margin-top: 100px;
+}
+
+.CartMainDiv {
+ 
+  width: 90%;
+  min-height: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.CartTicketDiv {
+ width: 100%;
+ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   gap: 10px;
+  display: flex;
+  margin: auto;
+  text-transform: uppercase;
+  text-align: start;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.TicketNumberDiv {
+  margin: auto;
+}
+.TicketNumberButtom {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
+
+.CancelDiv {
+  margin: auto;
+}
+
+.BusDetails {
+ 
+  display: flex;
+  gap: 10px;
+  margin: auto;
+}
+.BusDetailsDiv {
+  width: 200px;
+  height: 150px;
+}
+.BusDetailsInfo{
+    margin: auto;
+    font-weight: 600;
+
+}
+
+.SeatPtage{
+    font-weight: bold;
+    font-size:20px;
+    color: gray;
+}
+
+h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+   
+   
+}
+
+/* CSS code for mobile screens */
+@media (max-width: 480px) {
+  .CartMainDiv {
+ 
+    width: 90%;
+    min-height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .CartTicketDiv {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      gap: 20px;
+      padding: 10px 20px;
+     display: flex;
+     margin: auto;
+     text-transform: uppercase;
+     text-align: start;
+     align-content: center;
+     justify-content: space-around;
+     flex-direction: column;
+   }
+   .BusDetails {
+ 
+    display: flex;
+    gap: 10px;
+    margin: auto;
+  justify-content: space-between;
+   
+  }
+}
